@@ -1,0 +1,63 @@
+.own-table{
+    color:black;
+    border: 1px solid #5bd0dd;
+}
+
+.own-table .thead-dark th{
+    color: #fff;
+    background-color: #5bd0dd;
+    border-color: #5bd0dd;
+}
+
+.own-table td, .own-table tr, .own-table th{
+    border-color: #5bd0dd;
+}
+
+.own-table tr:hover{
+    background-color: #a4dee4;
+    color: white;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.btn-outline-secondary:hover{
+    color: #fff;
+    background-color: #5bd0dd;
+    border-color: #5bd0dd;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    color: white;
+}
+
+.btn-outline-secondary {
+    width: 150px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #2e3035; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #5bd0dd; 
+    border: 1px solid #2e3035;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff; 
+}
+
+@media (max-width: 600px) {
+    .btn-outline-secondary {
+        width: 80px;
+    }
+}
